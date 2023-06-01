@@ -1,0 +1,14 @@
+uuid: c5dbb076-5408-46f7-bbbd-8a112177d59f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.collectie
+id: taxonomy_vocabulary_collectie
+entity_type_id: taxonomy_vocabulary
+entity_id: collectie
+action: access_denied
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

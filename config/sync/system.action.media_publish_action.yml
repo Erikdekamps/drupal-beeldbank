@@ -1,0 +1,13 @@
+uuid: 0e293def-c6a8-452b-80a3-73a66d029fe9
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: nh83qNNrmWE-CDdHz2MdFOAk60T9mzv3R-MaKfZR2jw
+id: media_publish_action
+label: 'Media publiceren'
+type: media
+plugin: 'entity:publish_action:media'
+configuration: {  }

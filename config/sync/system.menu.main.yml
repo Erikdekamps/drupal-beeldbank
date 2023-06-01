@@ -1,0 +1,10 @@
+uuid: 5b2efb6d-790f-4346-a7b2-7c403970d4f3
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: Hoofdnavigatie
+description: 'Sectielinks van de site'
+locked: true

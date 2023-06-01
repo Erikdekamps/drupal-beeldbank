@@ -1,0 +1,16 @@
+uuid: da1b3941-fa9b-476e-bcdd-0fcca39f2619
+langcode: nl
+status: true
+dependencies:
+  module:
+    - media
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonieme gebruiker'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'view media'

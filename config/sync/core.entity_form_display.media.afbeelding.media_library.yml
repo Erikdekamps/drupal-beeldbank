@@ -1,0 +1,32 @@
+uuid: 7e652578-0b32-466c-8485-f16410d23acd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.afbeelding.field_collectie
+    - field.field.media.afbeelding.field_media_image
+    - image.style.thumbnail
+    - media.type.afbeelding
+  module:
+    - image
+id: media.afbeelding.media_library
+targetEntityType: media
+bundle: afbeelding
+mode: media_library
+content:
+  field_media_image:
+    type: image_image
+    weight: -50
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_collectie: true
+  langcode: true
+  name: true
+  status: true
+  uid: true

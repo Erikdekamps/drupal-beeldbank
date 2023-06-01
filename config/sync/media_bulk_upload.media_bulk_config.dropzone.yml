@@ -1,0 +1,12 @@
+uuid: ade51d21-0da8-4ca5-b0e9-d51181061a17
+langcode: nl
+status: true
+dependencies: {  }
+id: dropzone
+label: Dropzone
+media_types:
+  afbeelding: afbeelding
+form_mode: ''
+upload_location: ''
+show_alt: null
+show_title: null

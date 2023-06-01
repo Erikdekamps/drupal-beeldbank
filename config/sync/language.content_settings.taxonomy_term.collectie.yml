@@ -1,0 +1,11 @@
+uuid: c248b61e-2e0e-4a69-9c34-a990e71e33a4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.collectie
+id: taxonomy_term.collectie
+target_entity_type_id: taxonomy_term
+target_bundle: collectie
+default_langcode: site_default
+language_alterable: false

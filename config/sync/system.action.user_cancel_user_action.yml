@@ -1,0 +1,13 @@
+uuid: dd10f60f-1f6f-41b9-81d1-1a15ac29f0d0
+langcode: nl
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
+id: user_cancel_user_action
+label: 'De geselecteerde gebruikersaccount(s) opheffen'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }
